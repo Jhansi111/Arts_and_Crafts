@@ -1,0 +1,76 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color:lightgray;
+}
+  h1{
+  font-size:80px;
+  padding: 50px;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  font-family:'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0px;
+  color: #E1E1E1;
+  letter-spacing: 0.2em;
+}
+div{
+  padding: 30px ;
+}
+.subhead1{
+  background-color: teal;
+}
+.subhead {
+    font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+  opacity: 0.7;
+  font-family:  'Amatic SC', cursive;
+  letter-spacing: 0.2em;
+}
+img{
+  max-width: 100%;
+  height: 400px;
+  margin-top: 10px;
+opacity: 0.8;
+border-radius: 4%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 5px 10px #888888;
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  h4{
+    font-size: 25px;
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 20px;
+    letter-spacing: 0.2em;
+    color:brown;
+    padding: 10px;
+  }
+p{
+font-family: 'Bad Script', cursive;
+  letter-spacing: 0.2em;
+  padding:10px;
+  margin:4px;
+  font-size: 20px;
+}
+.subhead2{
+  background-color: #FE7F9C;
+
+}
+.subhead3{
+  background-color:darkgreen;
+  opacity: 0.5;
+  }
+  @media  screen and (max-width: 600px) {
+ h1{
+   font-size:60px;
+   margin-left: 0px;
+ }
+  }
